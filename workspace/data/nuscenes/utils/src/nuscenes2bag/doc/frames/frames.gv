@@ -1,0 +1,20 @@
+digraph G {
+"odom" -> "base_link"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"map" -> "odom"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "radar_front_right"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_front"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_front_right"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "radar_front"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_back_right"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "lidar_top"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "radar_back_left"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "radar_front_left"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_back_left"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_back"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "radar_back_right"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+"base_link" -> "cam_front_left"[label="Broadcaster: /play_1644155698882096182\nAverage rate: 137.929 Hz\nMost recent transform: 1538448744.620 ( 105707110.732 sec old)\nBuffer length: 0.073 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1644155855.352"[ shape=plaintext ] ;
+ }->"map";
+}
